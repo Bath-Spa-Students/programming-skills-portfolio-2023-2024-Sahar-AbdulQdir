@@ -1,5 +1,13 @@
 #inserting a dictionary
-dictionary = {"first_name": "Omar",
+dictionary = {
+              "first_name": "Omar",
               "last_name": "Ali",
-              "Age": "33",
-              "City": "Khartoum"}
+              "age": "33",
+              "city": "Khartoum"}
+
+#print the output
+print(dictionary['first_name'])
+print(dictionary['last_name'])
+print(dictionary['age'])
+print(dictionary['city'])
+
